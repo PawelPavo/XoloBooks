@@ -28,7 +28,8 @@ const Home: React.FC<IHomeProps> = (props) => {
                     </div>
                 </div>
                 <div className="row-d-flex text-center my-4 border p-4 border-left-0 border-right-0">
-                    <div className="">
+                    <small>Shop Bookshop using our special link. 10% of sales go toward Xolo Books</small>
+                    <div className="p-4">
                         <a
                             target="_blank"
                             style={{ textDecoration: 'none' }}

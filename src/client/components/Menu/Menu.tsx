@@ -26,7 +26,15 @@ const Menu: React.FC<IMenuProps> = (props) => {
           exact to="/blogs"
         >Blogs</NavLink>
       </div>
+      <div>
+        <NavLink
+          className="text-decoration-none"
+          exact to="/donate"
+        >Donate</NavLink>
+      </div>
+      
     </StyledMenu>
+    
   )
 }
 

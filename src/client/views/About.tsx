@@ -6,7 +6,7 @@ const About: React.FC<IAboutProps> = (props) => {
     return (
         <>
             <div className="container">
-                <div className="text-center display-4 mt-4 mb-5">About</div>
+                <div className="text-center display-4 mt-5 mb-5">About</div>
                 <div className="row justify-content-center">
                     <div className="col-md-6">
                         <div className="border p-5 shadow">

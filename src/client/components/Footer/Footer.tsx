@@ -25,9 +25,12 @@ const Footer: React.FC<IFooter> = () => {
                 <Icon>
                     <a target="_blank" href="https://www.facebook.com/Xolo-Books-112647723872768/"><FiFacebook /></a>
                 </Icon>
-                {/* <Icon>
-                    <a target="_blank" href="mailto:pjpavo@gmail.com"><FiMail /></a>
-                </Icon> */}
+            </div>
+            <hr/>
+            <div className="text-center">
+                <small className="">
+                    <a target="_blank" href="https://damp-headland-11870.herokuapp.com/"> Made with ❤️ by Pawel Jaskolski</a>
+                </small>
             </div>
         </>
     )
