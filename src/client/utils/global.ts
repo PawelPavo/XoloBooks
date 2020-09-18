@@ -24,4 +24,14 @@ export const GlobalStyles = createGlobalStyle`
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     justify-content: center;
   }
+  a {
+    color: #bd6658;
+  }
+  a:hover {
+    color: ${({ theme }) => theme.primaryLight};
+  }
+  .image {
+    position: relative;
+    z-index: 1;
+  }
   `
