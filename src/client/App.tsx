@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useState, useRef } from 'react';
+import { useRef } from 'react';
 import { useOnClickOutside } from './utils/hooks';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components'
@@ -9,6 +9,7 @@ import { Burger, Menu } from './components';
 import Blogs from './views/Blogs';
 import Home from './views/Home';
 import Mission from './views/About';
+import Donate from './views/Donate';
 
 const App: React.FC<IAppProps> = () => {
 	const [open, setOpen] = React.useState<boolean>(false)
@@ -33,6 +34,9 @@ const App: React.FC<IAppProps> = () => {
 					</Route>
 					<Route exact path="/blogs">
 						<Blogs />
+					</Route>
+					<Route exact path="/donate">
+						<Donate />
 					</Route>
 				</Switch>
 

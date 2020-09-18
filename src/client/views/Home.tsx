@@ -50,21 +50,16 @@ const Home: React.FC<IHomeProps> = (props) => {
                     </div>
                 </div>
                 <div className="mt-3 text-center">
-                    <a
-                        target="_blank"
-                        style={{ textDecoration: 'none' }}
-                        href="https://www.gofundme.com/f/xolo-books-startup?utm_medium=copy_link&utm_source=customer&utm_campaign=p_lico+share-sheet">
+                    <Link to="/donate">
                         <button type="button" className="btn btn-sm btn-outline-warning rounded-0"><FaDonate /> Donate</button>
-                    </a>
+                    </Link>
                 </div>
                 <hr className="mb-2" />
 
             </main>
-            <div className="row d-flex justify-content-center mt-5">
+            <div className="">
                 <Footer />
             </div>
-
-
         </>
     )
 }

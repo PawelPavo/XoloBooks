@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { FaInstagram } from 'react-icons/fa';
 import { FiTwitter, FiFacebook } from 'react-icons/fi';
+import { ImCircleDown } from 'react-icons/im';
 import styled from 'styled-components';
 
 
@@ -8,6 +9,12 @@ const Footer: React.FC<IFooter> = () => {
 
     return (
         <>
+            <div className="row d-flex justify-content-center">
+                <h6>Share - Amor - Follow</h6>
+            </div>
+            <div className="row d-flex justify-content-center my-3">
+                <h1><ImCircleDown /></h1>
+            </div>
             <div className="row justify-content-center pb-3">
                 <Icon>
                     <a target="_blank" href="https://www.instagram.com/xolobooks/"><FaInstagram /></a>
