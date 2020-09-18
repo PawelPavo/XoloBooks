@@ -1,6 +1,6 @@
 import * as React from 'react'
-import {  FaInstagram } from 'react-icons/fa';
-import { FiMail, FiTwitter, FiFacebook } from 'react-icons/fi';
+import { FaInstagram } from 'react-icons/fa';
+import { FiTwitter, FiFacebook } from 'react-icons/fi';
 import styled from 'styled-components';
 
 
@@ -8,7 +8,7 @@ const Footer: React.FC<IFooter> = () => {
 
     return (
         <>
-            <div className="row justify-content-center fixed-bottom pb-3">
+            <div className="row justify-content-center pb-3">
                 <Icon>
                     <a target="_blank" href="https://www.instagram.com/xolobooks/"><FaInstagram /></a>
                 </Icon>

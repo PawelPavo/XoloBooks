@@ -8,6 +8,7 @@ import { theme } from './utils/theme';
 import { Burger, Menu } from './components';
 import Blogs from './views/Blogs';
 import Home from './views/Home';
+import Mission from './views/About';
 
 const App: React.FC<IAppProps> = () => {
 	const [open, setOpen] = React.useState<boolean>(false)
@@ -26,6 +27,9 @@ const App: React.FC<IAppProps> = () => {
 				<Switch>
 					<Route exact path="/">
 						<Home />
+					</Route>
+					<Route exact path="/about">
+						<Mission />
 					</Route>
 					<Route exact path="/blogs">
 						<Blogs />

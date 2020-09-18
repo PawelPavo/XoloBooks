@@ -17,6 +17,12 @@ const Menu: React.FC<IMenuProps> = (props) => {
       <div>
         <NavLink
           className="text-decoration-none"
+          exact to="/about"
+        >About</NavLink>
+      </div>
+      <div>
+        <NavLink
+          className="text-decoration-none"
           exact to="/blogs"
         >Blogs</NavLink>
       </div>

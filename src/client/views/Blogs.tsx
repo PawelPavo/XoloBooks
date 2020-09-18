@@ -6,7 +6,7 @@ const Blogs: React.FC<IBlogsProps> = (props) => {
     return (
         <>
             <main className="container my-3">
-                <div className="text-center display-2">Blogs</div>
+                <div className="text-center display-4">Blogs</div>
             </main>
             <Footer />
         </>
